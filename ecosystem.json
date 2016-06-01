@@ -3,6 +3,8 @@
     {
       "name"      : "nodedeployexample",
       "script"    : "app.js",
+      "instances" : 2,
+      "exec_mode" : "cluster",
       "env": {
         "COMMON_ENV_VAR": "true"
       },
