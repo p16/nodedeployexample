@@ -19,21 +19,6 @@
       "ref"  : "origin/master",
       "path" : "/var/www/production",
       "post-deploy" : "pm2 startOrGracefulReload ecosystem.json --env production"
-    },
-    "dev" : {
-      "user" : "pippo",
-      "host" : "45.62.248.58",
-      "repo" : "git@github.com:p16/nodedeployexample.git",
-      "ref"  : "origin/master",
-      "path" : "/var/www/production",
-      "post-deploy" : "pm2 startOrGracefulReload ecosystem.json --env dev"
-    },
-    "staging" : {
-      "user" : "pippo",
-      "host" : "45.62.248.58",
-      "repo" : "git@github.com:p16/nodedeployexample.git",
-      "ref"  : "origin/master",
-      "path" : "/var/www/production"
     }
   }
 }
