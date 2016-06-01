@@ -18,7 +18,7 @@
       "repo" : "git@github.com:p16/nodedeployexample.git",
       "ref"  : "origin/master",
       "path" : "/var/www/production",
-      "post-deploy" : "pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "pm2 startOrGracefulReload ecosystem.json --env production"
     }
   }
 }
